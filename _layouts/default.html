@@ -10,6 +10,16 @@
     <div class="content container">
       {{ content }}
     </div>
-
+ <script src="//code.jquery.com/jquery-1.7.1.min.js"></script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4RJ8Q2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+  $('.sidebar').on('click',function(e){
+    e.preventDefault()
+    console.log('my event',e);
+  })
+</script>
   </body>
 </html>
